@@ -3,7 +3,7 @@ import alien from '../../assets/alien-invasion.png';
 import api from '../../assets/api.png';
 import portfolio from '/rainbow.png';
 import langi from '../../assets/langi.png';
-import ProjectCard from '../../common/ProjectCard';
+import ProjectCard from '../../Common/ProjectCard';
 
 function project() {
   return (
