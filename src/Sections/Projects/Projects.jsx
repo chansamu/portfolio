@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import alien from '../../assets/alien-invasion.png';
+import api from '../../assets/api.png';
+import portfolio from '/rainbow.png';
+import langi from '../../assets/langi.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function project() {
@@ -11,25 +11,25 @@ function project() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-            src={viberr}
+            src={alien}
             link="https://github.com/chansamu/alien_invasions"
             h3="Alien Invasion"
             p="2D Game"
           />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/chansamu/alien_invasions"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={api}
+          link="https://www.paloaltonetworks.com/cortex/cortex-xsoar/marketplace"
+          h3="Hoxhunt API Integration"
+          p="XSOAR Platform"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/chansamu/alien_invasions"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={portfolio}
+          link="https://github.com/chansamu/portfolio.git"
+          h3="Portfolio"
+          p="Personal Website"
         />
         <ProjectCard
-          src={fitLift}
+          src={langi}
           link="https://www.figma.com/design/h3SROUQBoGgk0PcUbPlQz0/Langi-App?node-id=0-1&m=dev&t=w04kCGymvvaHdHYB-1"
           h3="Langi"
           p="Language App"
