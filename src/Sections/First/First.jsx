@@ -32,7 +32,7 @@ function First() {
                 <h1>
                     Sam U Chan
                 </h1>
-                <h2>Software Developer</h2>
+                <h2>Aspiring Developer</h2>
                 <span>
                     <a href="https://github.com/chansamu" target="_blank">
                         <img src={githubIcon} alt="github icon" />
@@ -45,7 +45,7 @@ function First() {
                     </a>
                 </span>
                 <p className={styles.description}>
-                        With a passion for developing user-centric softwares.
+                Committed to mastering software development with a focus on creating user-friendly solutions.
                 </p>
                 <a href={CV} download>
                     <button className="hover">Resume</button>

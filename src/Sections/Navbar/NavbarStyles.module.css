@@ -38,6 +38,15 @@
   margin-left: auto;
   flex-wrap: nowrap;
   overflow-x: auto;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.links a {
+  padding: 10px 0;
+  width: 100%;
 }
 
 .themeToggle {

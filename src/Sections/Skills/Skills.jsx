@@ -38,7 +38,10 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="User Interface Design" />
         <SkillList src={checkMarkIcon} skill="Prototyping" />
         <SkillList src={checkMarkIcon} skill="Usability Testing" />
-        <SkillList src={checkMarkIcon} skill="Project Management(Scrum, Agile)" />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Project Management(Scrum, Agile etc.)" />
       </div>
     </section>
   );
