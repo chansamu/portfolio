@@ -18,7 +18,7 @@ function project() {
           />
         <ProjectCard
           src={api}
-          link="https://www.paloaltonetworks.com/cortex/cortex-xsoar/marketplace"
+          link="https://cortex.marketplace.pan.dev/marketplace/details/Hoxhunt/"
           h3="Hoxhunt API"
           p="XSOAR Integration"
         />
